@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+
+body {
+  background-color: #18021C;
+}
+
+.logo {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+  }
+
+
+.logo img {
+  height: 220px;
+}
+
+.verticall {
+  border-left: 3px solid white;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+
+.menu {
+  float: right;
+  height: 50%;
+  width: 50%;
+  margin-top: 278.5px;
+}
+
+.menu ul {
+  padding: 10px 55px;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu li ul a {
+  color: white;
+  font-family: Spartan;
+  font-weight: bold;
+  font-size: 27px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu li ul a:hover {
+  color: #FECE15;
+  font-family: Spartan;
+  font-weight: bold;
+  font-size: 27px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+}
